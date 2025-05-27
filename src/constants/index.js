@@ -1,20 +1,25 @@
-
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-
-export const HERO_CONTENT = `I am a passionate front-end developer with a talent for creating dynamic, responsive, and visually appealing web interfaces. With 2 years of hands-on experience, I have honed my expertise in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React, WordPress, and Elementor. My goal is to craft intuitive and engaging user experiences while leveraging cutting-edge front-end technologies to deliver impactful solutions that drive business growth.`;
-
+export const HERO_CONTENT = `I am a passionate front-end developer with a talent for creating dynamic, responsive, and visually appealing web interfaces. I have honed my expertise in HTML, CSS, Tailwind CSS, JavaScript, React, WordPress, and Elementor. My goal is to craft intuitive and engaging user experiences while leveraging cutting-edge front-end technologies to deliver impactful solutions that drive business growth.`;
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2024 - Present",
+    year: "Jan 2025 - Present",
     role: "Front-end Developer",
     company: "Wilcode",
-    description: `Specializing in creating responsive and visually appealing websites. My expertise includes HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, and React for custom web development, delivering unique and dynamic solutions. Additionally, I use WordPress for CMS-based web development, providing flexible and scalable websites tailored to client requirements. At Wilcode, I focus on merging modern design with functionality to deliver exceptional web solutions.`,
-    technologies: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "React", "WordPress"],
+    description: `Specializing in creating responsive and visually appealing websites. My expertise includes HTML, CSS, Tailwind CSS, JavaScript, and React for custom web development, delivering unique and dynamic solutions. Additionally, I use WordPress for CMS-based web development, providing flexible and scalable websites tailored to client requirements. At Wilcode, I focus on merging modern design with functionality to deliver exceptional web solutions.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React",
+      "WordPress",
+      "Elementor",
+    ],
   },
   {
     year: " Jun 2022 - Dec 2023",
@@ -22,20 +27,19 @@ export const EXPERIENCES = [
     company: "Wilcode",
     description: `Senior digital marketer with 1.5 years of experience specializing in social media design and ads management, with a proven track record of driving engagement and conversions. Skilled in HR management, bringing a well-rounded skill set to enhance team dynamics and ensure project success.`,
     technologies: ["Social Media Ads", "SMM", "SMO"],
-  }
+  },
 ];
 
 export const EDUCATION = [
   {
-    year: "2023 - Present",
+    year: "2023 - 2025",
     role: "ADP in Web Design and Development",
     company: "Virtual University of Pakistan",
-    description: `Pursuing Associate Degree in Web Design and Development, Computer Science. This
+    description: `Associate Degree in Web Design and Development, Computer Science. This
     degree program offered by Virtual University of Pakistan equips with such skills that 
-    enable to develop websites/portals using cutting edge technology. Current (CGPA: 3.17).`,
+    enable to develop websites/portals using cutting edge technology. (CGPA: 3.29).`,
     technologies: ["Virtual University of Pakistan", "BSCS", "ADP"],
   },
-  
 ];
 
 export const PROJECTS = [
@@ -75,6 +79,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Pakistan, Punjab, Lahore ❤️ ",
-  phoneNo: "+92 318 4822 671 ",
+  phoneNo: "📞 +92 318 4822 671 ",
   email: "zaeemshakeel.zs2002@gmail.com",
 };
