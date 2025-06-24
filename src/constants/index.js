@@ -1,16 +1,18 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
+import project1 from "../assets/projects/1.png";
+import project2 from "../assets/projects/3.png";
+import project3 from "../assets/projects/4.png";
+import project4 from "../assets/projects/5.png";
+import project5 from "../assets/projects/2.png";
+import project6 from "../assets/projects/6.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a talent for creating dynamic, responsive, and visually appealing web interfaces. I have honed my expertise in HTML, CSS, Tailwind CSS, JavaScript, React, WordPress, and Elementor. My goal is to craft intuitive and engaging user experiences while leveraging cutting-edge front-end technologies to deliver impactful solutions that drive business growth.`;
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2025 - Present",
-    role: "Front-end Developer",
-    company: "Wilcode",
-    description: `Specializing in creating responsive and visually appealing websites. My expertise includes HTML, CSS, Tailwind CSS, JavaScript, and React for custom web development, delivering unique and dynamic solutions. Additionally, I use WordPress for CMS-based web development, providing flexible and scalable websites tailored to client requirements. At Wilcode, I focus on merging modern design with functionality to deliver exceptional web solutions.`,
+    year: "Mar 2025 - May 2025",
+    role: "MERN Stack Development",
+    company: " PNY Allama Iqbal Town",
+    description: ` Completed a comprehensive 3-month MERN stack course covering MongoDB, Express.js, React.js, and Node.js, with hands-on training in full-stack development. Built two real-world projects: E-Scooty, a React.js-based e-commerce app with Framer Motion animations, and Store King, a full-stack grocery web app featuring user authentication, cart system, and admin dashboard.`,
     technologies: [
       "HTML",
       "CSS",
@@ -43,6 +45,22 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "E-Sooty E-Commerce",
+    image: project5,
+    description:
+      "Developed a modern, responsive e-commerce platform for electric scooters using React.js. The frontend features a clean, user-friendly interface with dynamic UI transitions powered by Framer Motion and a sleek animated experience that enhances user engagement. Optimized for performance and mobile responsiveness.",
+    technologies: ["React JS", "Framer Motion"],
+    link: "https://glidexbyzaeem.netlify.app/", // Add individual link
+  },
+  {
+    title: "Store King",
+    image: project6,
+    description:
+      "Built a full-stack grocery e-commerce application using the MERN stack (MongoDB, Express.js, React.js, Node.js).Implemented secure user authentication, admin dashboard for inventory control, and responsive UI for mobile and desktop. Optimized for performance, scalability, and a seamless shopping experience.",
+    technologies: ["React JS", "MERN"],
+    link: "https://storeking.netlify.app/", // Add individual link
+  },
   {
     title: "E-Commerce Website",
     image: project1,
