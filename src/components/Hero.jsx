@@ -50,7 +50,7 @@ const Hero = () => {
               <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl">Zaeem Shakeel</motion.h2>
               <motion.span variants={childVariants} className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent ">Front-end Developer</motion.span>
               <motion.p variants={childVariants} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter lg:text-left md:text-center sm:text-center">{HERO_CONTENT}</motion.p>
-              <motion.a variants={childVariants} href="/Zaeem Shakeel.pdf"
+              <motion.a variants={childVariants} href="/Zaeem Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
